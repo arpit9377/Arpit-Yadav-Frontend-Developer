@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <ul className="flex space-x-4 items-center">
           <li>
-            <a href="/" className="text-white hover:text-gray-300 transition duration-300 ease-in-out">Home</a>
+            <a href="/page" className="text-white hover:text-gray-300 transition duration-300 ease-in-out">Home</a>
           </li>
           <li>
             <a href="/rockets" className="text-white hover:text-gray-300 transition duration-300 ease-in-out">Rockets</a>

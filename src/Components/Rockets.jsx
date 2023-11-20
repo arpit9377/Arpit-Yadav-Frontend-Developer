@@ -10,6 +10,9 @@ const Rockets = () => {
 
   const [searchTerm, setSearchTerm] = useState("");
 
+  
+  
+
   // Fetch rockets on component mount
   useEffect(() => {
     dispatch(fetchRockets());
@@ -19,6 +22,7 @@ const Rockets = () => {
   const filteredRockets = rockets.filter((rocket) =>
     rocket.rocket_name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+    
 
   return (
     <div className="relative">
@@ -34,6 +38,8 @@ const Rockets = () => {
           className="mt-1 p-1.5 text-black w-1/2 rounded-md"
         />
       </div>
+
+     
 
       {/* Video background */}
       <video
