@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import registerBackground from '../Assets/register.jpg';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -9,7 +10,16 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200 flex flex-col items-center justify-center">
+    <div
+    className="min-h-screen flex flex-col items-center justify-center"
+    style={{
+      backgroundImage: `url(${registerBackground})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  >
+
+    <div className=" bg-gray-200 flex flex-col items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-lg">
         <h1 className="text-3xl font-bold mb-4">Log In</h1>
 
@@ -44,6 +54,7 @@ const Login = () => {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 };
