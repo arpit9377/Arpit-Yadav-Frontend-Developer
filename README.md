@@ -25,8 +25,8 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/spacex-data-app.git
-cd spacex-data-app
+git clone https://github.com/your-username/spacex.git
+cd spacex
 Install dependencies:
 
 bash
