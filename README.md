@@ -1,5 +1,5 @@
 ## Overview
-This repository contains a React app built to display SpaceX Rockets or Capsules data. The app leverages React, Redux Toolkit for state management, Tailwind CSS for styling, and PHP with MySQL for user authentication.
+This repository contains a React app built to display SpaceX Rockets data. The app leverages React, Redux Toolkit for state management, Tailwind CSS for styling, and PHP with MySQL for user authentication.
 
 ## Features
 Landing Page:
