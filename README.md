@@ -17,6 +17,7 @@ Redux Toolkit
 Tailwind CSS
 PHP
 MySQL
+gsap
 
 ## Getting Started
 To run the app locally, follow these steps:
